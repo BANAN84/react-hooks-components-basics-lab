@@ -7,7 +7,13 @@ function NavBar() {
     </nav>
   );
 }
-
+function About() {
+  return ( 
+    <div id= "about">
+         About 
+    </div>
+  )
+}
 function Home() {
   return (
     <div id="home">
@@ -23,6 +29,8 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Home />
+      <About />
       {/* add the <Home> component here */}
       {/* add your <About> component here */}
     </div>
